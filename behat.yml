@@ -1,0 +1,17 @@
+default:
+    autoload:
+        '': %paths.base%/features/bootstrap
+    extensions:
+        Behat\WebApiExtension:
+            base_uri: http://localhost:8000
+    formatters:
+        pretty: true
+        # progress: true
+    suites:
+        # Root
+        root:
+            paths:
+                - %paths.base%/features
+            contexts:
+                - FeatureContext
+                - DatabaseContext
