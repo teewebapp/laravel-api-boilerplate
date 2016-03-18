@@ -6,7 +6,9 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "spatie/laravel-fractal": "~1.8"
+        "spatie/laravel-fractal": "~1.8",
+        "fabpot/php-cs-fixer": "^1.11",
+        "squizlabs/php_codesniffer": "^2.5"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -16,7 +18,8 @@
         "symfony/dom-crawler": "2.8.*|3.0.*",
         "linio/behat-web-api-extension": "1.2.*",
         "behat/behat": "~3.0",
-        "doctrine/dbal": "~2.3"
+        "doctrine/dbal": "~2.3",
+        "phpro/grumphp": "^0.8.0"
     },
     "autoload": {
         "classmap": [

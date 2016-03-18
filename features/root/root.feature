@@ -1,7 +1,7 @@
 Feature: Root
-    In order to send a get request to root endingpoint and get welcome response
+    In order to send a get request to root endingpoint
     As a user not logged in
-    I need to be able to send a get request to root endingpoint and get welcome response
+    I need to be able to send a get request to root
 
     Scenario: Sent GET request to root endingpoint [/] and get welcome response
         Given I set header "Content-Type" with value "text/plain"

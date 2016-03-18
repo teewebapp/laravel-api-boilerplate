@@ -1,0 +1,6 @@
+parameters:
+  git_dir: .
+  bin_dir: ./vendor/bin
+  ignore_unstaged_changes: false
+  tasks:
+    phpcs: ~
